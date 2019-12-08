@@ -1,0 +1,103 @@
+.button
+{
+    position: absolute;
+    left:40%;
+    box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:0px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+
+	
+	font-size:10px;
+	font-weight:bold;
+	padding:0px 10px;
+	text-decoration:gray;
+	text-shadow:0px 0px 50px #2b665e;
+    
+  
+}
+.input 
+{
+    position: relative;
+    left:12%;
+}
+.clr
+{
+    color:white;
+}
+
+.ull{
+    margin-left: 1%;
+    list-style-type:none;
+    
+    
+    }
+    
+    .ull li:before {
+        content: "\25EF";
+        color: black;
+       
+        font-size: 23px; /* or whatever */
+        padding-right: 100px;
+        
+     }
+     .ull li
+     {
+         font-size: 23px;
+     }
+     
+     .ulp{
+        margin-left: 1%;
+        
+        list-style-type:none;
+        
+        
+        }
+        
+        .ulp li:before {
+            content: "";
+            color: black;
+           
+            font-size: 23px; /* or whatever */
+            padding-right: 100px;
+            
+         }
+         
+     .re{
+         position: relative;
+         left:10px;
+     }
+     .field {
+        position: relative;
+        left: 10%;
+        width: 80%;
+        height: 56px;
+        border-radius: 10px;
+        
+        background-color: rgba(255,255,255,0.3);
+        transition: 0.3s all;
+      }
+      .field:hover {
+        background-color: rgba(255, 255, 255, 0.45);
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+      }
+      .ree
+      {
+font-size: 10px;
+      }
+      .bu
+      {
+       position: absolute;
+      left: 80%;
+        box-shadow:inset 0px 1px 3px 0px #91b8b3;
+        background:linear-gradient(to bottom, #768d87 5%, #50a5a5 100%);
+        background-color:#768d87;
+        border-radius:5px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
