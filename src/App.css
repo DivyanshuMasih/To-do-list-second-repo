@@ -1,10 +1,93 @@
-.App {
+*{
+ 
+  padding: 0;
+  background-color: black;
+}
+.span--todo {
   
-
+  display: inline-flex;
   color: yellow;
    font-size: 40px;
   font-weight: bolder;
-  padding-left: 50px;
+  padding-left: 150px;
   
-};
+     }
 
+
+
+
+.lists--custom
+{
+    background-color: black;
+}
+
+.unorder--list__lists-js{
+    margin-left: 3%;
+    list-style-type:none;
+    
+    
+    }
+    
+    .unorder--list__lists-js li:before {
+        content: "\25EF";
+        color: white;
+       
+        font-size: 23px; /* or whatever */
+        padding-right: 100px;
+        
+     }
+     .unorder--list__lists-js li
+     {
+         font-size: 23px;
+         color: blanchedalmond;
+     }
+     
+.unorder--list__app-js{
+        margin-left: 3%;
+        
+        list-style-type:none;
+        
+        
+        }
+        
+        .unorder--list__app-js li:before {
+            content: "";
+            color: black;
+           
+            font-size: 23px; /* or whatever */
+            padding-right: 100px;
+            
+         }
+         
+
+.field {
+        position: relative;
+        left: 10%;
+        width: 82%;
+        height: 56px;
+        border-radius: 10px;
+        
+        background-color: rgba(255,255,255,0.3);
+        /* background-color: black; */
+        transition: 0.3s all;
+      }
+       .field:hover {
+              background-color: rgba(255, 255, 255, 0.45);
+               box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+             }
+
+.button--app-js{
+       position: relative;
+       left: 85%;
+      
+        background-color:#768d87;
+        border-radius:10px;
+        padding: 1px 30px;
+        display:ruby-text-container;
+        font-size: 30px;
+        font: outline;
+        text-decoration-color: white;
+       
+        
+      }
+      

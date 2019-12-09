@@ -1,8 +1,7 @@
 import React,{Component} from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import './button.css';
-//import {Button} from 'react-bootstrap'
+
 
 import 'C:/Users/Divyanshu/node_modules/bootstrap/dist/css/bootstrap.css'
 //import './plus'
@@ -46,34 +45,37 @@ class App extends Component{
   }
   
 render() {
-  return (<div >
+  return (<body className="Clr">
+  <div >
     
     <div >
-      <span className="App " >Todo
-        </span>
-  <span><button className ="bu"  onClick = {this.Togle}><h1>+</h1></button></span>
+      <span className="span--todo " >Todo
+        </span><button className ="button--app-js"  onClick = {this.Togle}>+</button>
+       
+       
+  
         <hr
       style={{
           color: "white",
           backgroundColor: "white",
           height: .1 ,
-          width:1295
+          width:1100
          
       }}
   />
-          <Lists  className ="clr" entries = {this.state.items}>
+          <Lists  className ="list--custom" entries = {this.state.items}>
          
           
           </Lists>
           
           
-          { this.state.show && <form   onSubmit={this.addItem} >
+          { this.state.show && <form   className = "" onSubmit={this.addItem} >
          
           <input  ref = {(a) => this._inputElement =a }  className="field"  ></input>
           
    
           </form> }    
-  <ul className ="clr theList ulp">
+  <ul className ="clr theList unorder--list__app-js">
             <li><ColoredLine color="white"/></li>
             <li><ColoredLine color="white"/></li>
             <li><ColoredLine color="white"/></li>
@@ -87,11 +89,11 @@ render() {
             <li><ColoredLine color="white"/></li>
             <li><ColoredLine color="white"/></li>
             </ul>
-          <style>{'body { background-color: #A9ADAB; }'}</style>
+          
           
         
       </div></div>
-      
+      </body>
   );
 }
 
@@ -104,7 +106,7 @@ const ColoredLine = ({ color,h }) => (
           color: color,
           backgroundColor: color,
           height: .1 ,
-          width:1240
+          width:1005
          
       }}
   />
